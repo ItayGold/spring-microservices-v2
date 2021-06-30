@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="8192" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -24,18 +25,18 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api-gateway" target="15" />
+      <module name="api-gateway" target="16" />
       <module name="api-gateway (1)" target="15" />
-      <module name="currency-conversion-service" target="15" />
+      <module name="currency-conversion-service" target="16" />
       <module name="currency-conversion-service (1)" target="15" />
       <module name="currency-conversion-service (2)" target="15" />
       <module name="currency-conversion-service (3)" target="15" />
-      <module name="currency-exchange-service" target="15" />
+      <module name="currency-exchange-service" target="16" />
       <module name="currency-exchange-service (1)" target="15" />
       <module name="currency-exchange-service (2)" target="15" />
       <module name="currency-exchange-service (3)" target="15" />
       <module name="limits-service" target="15" />
-      <module name="naming-server" target="15" />
+      <module name="naming-server" target="16" />
       <module name="naming-server (1)" target="15" />
       <module name="naming-server (2)" target="15" />
       <module name="spring-cloud-config-server" target="15" />
